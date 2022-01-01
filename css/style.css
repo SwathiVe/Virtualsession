@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+body{
+    background-size: cover;
+    /* background-position:top; */
+}
+header{
+    background-color:black ;
+}
+img{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.head-tag{
+    float: right;
+    margin-top: 44px;
+    margin-right: 55px;
+    
+}
+.head-tag a{
+    border: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin-right: 8px;
+    padding: 6px;
+}
+.head-tag a:hover{
+    background-color: cyan;
+    color: black;
+    transition:0.5s ease-in-out;
+}
+.side{
+    color: white;
+    padding: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.side li{
+    list-style: square;
+    margin-bottom: 14px;
+
+}
+.login{
+      float: right;
+      border: 2px solid red;
+      background-color: beige;
+      margin-top: 5%;
+      margin-right: 2%;
+      padding: 1em;
+      height: 15em;
+
+}
+.login h3{
+    text-align: center;
+}
+.login input{
+    height: 1.5em;
+}
+.login #butt{
+    background-color: cyan;
+    color: white;
+    width: 100%;
+}
+.container{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.p-box{
+    border: 2px solid white;
+    width: 23%;
+    float: left;
+    margin-right: 13px;
+    background-color: grey;
+    padding: 3px;
+    height: 13em;
+
+}
+.p-box h3{
+    text-align: center;
+
+}
+.p-box p{
+    line-height: 1.25em;
+    text-align: justify;
+}
+.p-box a{
+    text-decoration: none;
+    color: red;
+}
